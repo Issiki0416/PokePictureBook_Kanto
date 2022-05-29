@@ -1,0 +1,23 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusukeTeo/Pokemon_Picture_Book_Kanto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YusukeTeo/Pokemon_Picture_Book_Kanto/issues"
+  },
+  "homepage": "https://github.com/YusukeTeo/Pokemon_Picture_Book_Kanto#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  }
+}

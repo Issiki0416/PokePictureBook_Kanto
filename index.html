@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pokemon-font-master/css/pokemon-font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <a href="index.html">
+    <h1>ポケモン図鑑(カントー地方)</h1>
+  </a>
+  <audio id="music1" src="sounds/music1.wav"></audio>
+  <audio id="music2" src="sounds/music2.wav"></audio>
+  <audio id="music3" src="sounds/music3.wav"></audio>
+  <audio id="music4" src="sounds/music4.wav"></audio>
+  <audio id="music5" src="sounds/music5.wav"></audio>
+  <audio id="music6" src="sounds/music6.wav"></audio>
+  <div id="buttons"></div>
+  <button class="fixed_btn" id="stop_btn">Stop</button>
+
+  <div class="poke-container" id="poke-container"></div>
+  <div id="details"></div>
+  <div class="back-btn">
+    <!-- locationオブジェクトのreload()メソッドは、現在表示されているページのリロード（再読み込み）を行います。 一般的なブラウザの[更新]ボタンを押したときと同じ動作です。 -->
+    <p onclick="location.reload()">もどる</p>
+  </div>
+  <footer>
+    <p></p>&copy; ハルハル</p>
+  </footer>
+  <script src="./build/script.js"></script>
+</body>
+
+</html>
